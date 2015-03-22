@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>并行加载测试</title>
+</head>
+<body>
+    <h1 id="result">Loading</h1>
+    <script type="text/javascript">
+        var start = Date.now();
+    </script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1316330975"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=476242847"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1388085486"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1989503544"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=991602773"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1731256299"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1784704557"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1871060628"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1984372662"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=896692245"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=600331074"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1312898189"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=611098931"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=506230458"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=910018997"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1859246127"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=231162153"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1066595403"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=897725920"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=465869386"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=677150934"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1134755505"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=1394407503"></script>
+        <script type="text/javascript" src="http://g.tbcdn.cn/??kissy/k/1.4.0/seed-min.js,kissy/k/1.4.0/seed-min.js?t=765220417"></script>
+        <script type="text/javascript">
+        var time = Date.now() - start;
+        var total = 48;
+        var count = 24;
+        var message = [
+            '加载 ' + total + ' 个资源',
+            '发起 ' + count + ' 个请求',
+            '耗时 ' + time + ' ms'
+        ];
+        document.getElementById('result').innerHTML = message.join('，');
+    </script>
+</body>
+</html>
